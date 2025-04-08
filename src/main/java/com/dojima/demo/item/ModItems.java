@@ -16,6 +16,11 @@ public class ModItems {
                     .Properties()
                     .setId(ITEMS.key("pigingot")))); // add .setId(ITEMS.key("item_name") for newer versions
 
+    public static final RegistryObject<Item> PIGNUGGET = ITEMS.register("pignugget",
+            () -> new Item(new Item
+                    .Properties()
+                    .setId(ITEMS.key("pignugget"))));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

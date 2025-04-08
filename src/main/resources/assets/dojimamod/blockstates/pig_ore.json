@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model": "dojimamod:block/pig_ore"
+    }
+  }
+}

@@ -1,6 +1,7 @@
 package com.dojima.demo;
 
 import com.dojima.demo.block.ModBlocks;
+import com.dojima.demo.item.ModCreativeModeTabs;
 import com.dojima.demo.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,7 @@ public class DojiDemo {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
@@ -52,10 +54,12 @@ public class DojiDemo {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.PIGINGOT);
+            event.accept(ModItems.PIGNUGGET);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.PIG_BLOCK);
+            event.accept(ModBlocks.PIG_ORE);
         }
     }
 

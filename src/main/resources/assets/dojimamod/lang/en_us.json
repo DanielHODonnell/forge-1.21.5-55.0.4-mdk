@@ -1,5 +1,10 @@
 {
   "item.dojimamod.pigingot": "Pig Ingot",
+  "item.dojimamod.pignugget": "Pig Nugget",
 
-  "block.dojimamod.pig_block": "Block of The Pigs"
+  "item.dojimamod.pig_block": "Block of The Pigs",
+  "item.dojimamod.pig_ore": "Pig Ore",
+
+  "creativetab.dojimamod.pig_items": "Pig Items",
+  "creativetab.dojimamod.pig_blocks": "Pig Blocks"
 }
