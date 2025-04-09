@@ -42,6 +42,16 @@ public class ModBlocks {
                     .sound(SoundType.NETHER_ORE)
                     .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(DojiDemo.MOD_ID, "pig_ore")))));
 
+    // Pig Ore (deepslate)
+    public static final RegistryObject<Block> DEEPSLATE_PIG_ORE = registerBlock("deepslate_pig_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2,4), BlockBehaviour
+                    .Properties
+                    .of()
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.NETHER_ORE)
+                    .setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(DojiDemo.MOD_ID, "deepslate_pig_ore")))));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": [
+      "dojimamod:pig_block"
+    ],
+    "B": [
+      "minecraft:book"
+    ],
+    "C": [
+      "minecraft:netherite_ingot"
+    ]
+  },
+  "pattern": [
+    "AAA",
+    "CBC",
+    "AAA"
+  ],
+  "result": {
+    "id": "dojimamod:hotpotatobook",
+    "count": 1
+  }
+}

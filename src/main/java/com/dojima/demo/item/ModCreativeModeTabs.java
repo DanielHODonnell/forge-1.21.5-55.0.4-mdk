@@ -25,6 +25,10 @@ public class ModCreativeModeTabs {
                         public void accept(CreativeModeTab.@NotNull ItemDisplayParameters pParameters, CreativeModeTab.@NotNull Output pOutput) {
                             pOutput.accept(ModItems.PIGINGOT.get());
                             pOutput.accept(ModItems.PIGNUGGET.get());
+                            pOutput.accept(ModItems.HOTPOTATOBOOK.get());
+                            pOutput.accept(ModItems.PIGINFUSEDNETHERITE.get());
+                            pOutput.accept(ModItems.PIGTEMPLATE.get());
+                            pOutput.accept(ModItems.ROD_OF_LIGHTNING.get());
                         }
                     })
                     .build());
@@ -40,6 +44,7 @@ public class ModCreativeModeTabs {
                         public void accept(CreativeModeTab.@NotNull ItemDisplayParameters pParameters, CreativeModeTab.@NotNull Output pOutput) {
                             pOutput.accept(ModBlocks.PIG_BLOCK.get());
                             pOutput.accept(ModBlocks.PIG_ORE.get());
+                            pOutput.accept(ModBlocks.DEEPSLATE_PIG_ORE.get());
                         }
                     })
                     .build());

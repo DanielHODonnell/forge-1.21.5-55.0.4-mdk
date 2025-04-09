@@ -1,9 +1,16 @@
 {
   "item.dojimamod.pigingot": "Pig Ingot",
   "item.dojimamod.pignugget": "Pig Nugget",
+  "item.dojimamod.hotpotatobook": "Hot Potato Book",
+  "item.dojimamod.hotpotatobook.tooltip": "They say a legendary warrior used to farm books like these...",
+  "item.dojimamod.piginfusednetherite": "Pig Infused Netherite",
+  "item.dojimamod.piginfusednetherite.tooltip": "THE strongest material in minecraft!",
+  "item.dojimamod.pigtemplate": "Pig Template",
+  "item.dojimamod.rod_of_lightning": "Rod of Lightning",
 
   "item.dojimamod.pig_block": "Block of The Pigs",
   "item.dojimamod.pig_ore": "Pig Ore",
+  "item.dojimamod.deepslate_pig_ore": "Deepslate Pig Ore",
 
   "creativetab.dojimamod.pig_items": "Pig Items",
   "creativetab.dojimamod.pig_blocks": "Pig Blocks"

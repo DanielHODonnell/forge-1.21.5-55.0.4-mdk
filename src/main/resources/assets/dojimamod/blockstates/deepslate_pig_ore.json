@@ -1,0 +1,7 @@
+{
+  "variants" : {
+    "" : {
+      "model": "dojimamod:block/deepslate_pig_ore"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dojimamod:item/rod_of_lightning"
+  }
+}
